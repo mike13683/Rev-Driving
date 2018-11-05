@@ -1,0 +1,18 @@
+//Global classes/id/selectors
+
+@import 'custom/vendors/juice';
+@import 'custom/helpers/mixins';
+@import 'bootstrap/bootstrap';
+
+h1,h2,h3,h4,h5{
+  font-family: 'Audiowide', sans-serif !important;
+}
+
+//100vh minus the navbar
+.calc-100-navbar{
+  height: calc(100vh - 126px) !important;
+}
+
+.font-26{
+  font-size:rem-calc(26px) !important;
+}
