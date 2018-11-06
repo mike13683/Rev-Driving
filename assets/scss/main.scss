@@ -54,6 +54,15 @@
 
 .accordion h5 .btn {white-space: normal; text-align: left}
 
-.card{
+#intensive .card{
   min-height: 550px;
+}
+
+//gallery image contaniner height set - stops footer moving up and down with image slide
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.ham{
+  display: block;
 }

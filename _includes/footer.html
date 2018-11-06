@@ -2,115 +2,60 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-md-3 d-none d-sm-block">
-                <ul class="navbar-nav nav">
-                    <li>
-                        <a href="/">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="domestic.html">Domestic</a>
-                    </li>
-                    <li>
-                        <a href="gdpr.html">GDPR</a>
-                    </li>
-                    <li>
-                        <a href="domestic.html">Domestic</a>
-                    </li>
-                    <li>
-                        <a href="downloads.html">Downloads</a>
-                    </li>
-                    <li>
-                        <a href="vacancies.html">Vacancies</a>
-                    </li>
-                </ul>
-            </div>
+            <nav class="navbar navbar-expand d-block mx-auto">
+                <div id="navbar">
+                    <ul class="navbar-nav nav w-100">
 
-            <div class="col-md-3 d-none d-sm-block">
-                <ul class="navbar-nav nav">
-                    <li>
-                        <a href="cctv.html">CCTV</a>
-                    </li>
-                    <li>
-                        <a href="intruder.html">Intruder</a>
-                    </li>
-                    <li>
-                        <a href="fire.html">Fire Alarms</a>
-                    </li>
-                    <li>
-                        <a href="access.html">Access Control</a>
-                    </li>
-                    <li>
-                        <a href="maintenance.html">Maintenance</a>
-                    </li>
-                    <li>
-                        <a href="leasing.html">Leasing</a>
-                    </li>
-                    <li>
-                        <a href="switch.html">Switch</a>
-                    </li>
-                </ul>
-            </div>
+                        {% if page.active == "home" %}
+                        <li class="active"><a href="#">Home</a></li>
+                        {% else %}
+                        <li><a href="../index.html ">Home</a></li>
+                        {% endif %}
 
-            <div class="col-md-3 d-none d-sm-block">
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                    <!--<li>-->
-                        <!--<a href="support.html">Support</a>-->
-                    <!--</li>-->
-                    <li>
-                        <a href="https://www.islonline.net/start/ISLLightClient">Remote Support</a>
-                    </li>
-                    <a href="https://www.facebook.com/Concept-Fire-and-Security-622090887881335/" target="_blank" class="fab fa-facebook-f"></a>
-                    <a href="https://twitter.com/conceptfs" target="_blank" class="fab fa-twitter"></a>
-                    <a href="https://www.instagram.com/conceptfiresec/ " target="_blank" class="fab fa-instagram"></a>
-                    <a href="https://www.linkedin.com/company/concept-fire-&-security-limited" target="_blank" class="fab fa-linkedin"></a>
-                    <a href="mailto:info@conceptfiresec.com" target="_top" target="_blank" class="fas fa-envelope"></a>
-                </ul>
-            </div>
+                        {% if page.active == "about" %}
+                        <li class="active"><a href="#">About</a></li>
+                        {% else %}
+                        <li><a href="../about.html ">About</a></li>
+                        {% endif %}
 
-            <div class="col-md-3 footer-mobile-center">
-                <div class="d-block d-sm-none">
-                    <a href="https://www.facebook.com/Concept-Fire-and-Security-622090887881335/" target="_blank" class="fab fa-facebook-f"></a>
-                    <a href="https://twitter.com/conceptfs" target="_blank" class="fab fa-twitter"></a>
-                    <a href="https://www.instagram.com/conceptfiresec/ " target="_blank" class="fab fa-instagram"></a>
-                    <a href="https://www.linkedin.com/company/concept-fire-&-security-limited" target="_blank" class="fab fa-linkedin"></a>
-                    <a href="mailto:info@conceptfiresec.com" target="_top" target="_blank" class="fas fa-envelope"></a>
+                        {% if page.active == "intensive" %}
+                        <li class="active"><a href="#">Intensive</a></li>
+                        {% else %}
+                        <li><a href="../intensive.html">Intensive</a></li>
+                        {% endif %}
+
+                        {% if page.active == "pricing" %}
+                        <li class="active"><a href="#">Pricing</a></li>
+                        {% else %}
+                        <li><a href="../pricing.html">Pricing</a></li>
+                        {% endif %}
+
+                        {% if page.active == "show" %}
+                        <li class="active"><a href="#">Show</a></li>
+                        {% else %}
+                        <li><a href="../show.html">Show</a></li>
+                        {% endif %}
+
+                        {% if page.active == "cars" %}
+                        <li class="active"><a href="#">Cars</a></li>
+                        {% else %}
+                        <li><a href="../cars.html">Cars</a></li>
+                        {% endif %}
+
+                    </ul>
                 </div>
-                <address>
-                    <p>Concept Fire & Security</p>
-                    <p>Unit 8 Canal Business Park</p>
-                    <p>Dumballs Road</p>
-                    <p>Cardiff</p>
-                    <p>CF10 5FE</p>
-                    <div class="gap5"></div>
-                    <p>0800 4582757</p>
-                    <p>
-                        <a href="mailto:info@conceptfiresec.com" target="_top">info@conceptfiresec.com</a>
-                    </p>
-                </address>
-            </div>
+            </nav>
 
             <!--copyright-->
-            <div class="container pt-3 text-center">
-                <div class="row">
+                <div class="container pt-3 text-center">
+                    <div class="row">
 
-                    <div class="col-md-3 offset-md-4 text-light">
-                        <p class="mb-0">Made by <a href="http://dragoninfotech.com" target="_blank">dragoninfotech.com</a></p>
+                        <div class="d-block mx-auto text-light">
+                            <p class="mb-0">Made by <a href="http://dragoninfotech.com" target="_blank">dragoninfotech.com</a></p>
+                        </div>
+
                     </div>
-
-                    <div class="col-md-3 offset-md-2">
-                        <a href="terms-conditions.html">Terms Conditions</a>
-                        <a href="privacy-policy.html">Privacy Policy</a>
-                    </div>
-
                 </div>
-            </div>
-
         </div>
     </div>
 </footer>
