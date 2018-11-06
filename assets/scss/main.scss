@@ -26,7 +26,20 @@
 
 
 //INTENSIVE COURSE
+//card title
+#intensive h3{
+  font-size: rem-calc(16px);
+}
 
+//card header bg colour
+.card-header--amber{
+  background-color: orange;
+}
+
+//card header bg colour
+.card-header--green{
+  background-color: limegreen;
+}
 
 //PRICING
 .price-container{
@@ -40,3 +53,7 @@
 //CARS
 
 .accordion h5 .btn {white-space: normal; text-align: left}
+
+.card{
+  min-height: 550px;
+}
