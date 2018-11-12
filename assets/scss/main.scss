@@ -20,8 +20,79 @@
 
 
 //HOMEPAGE
+.hero{
+  height: 70vh;
 
+  &__content{
+    @include centerer;
+  }
+}
 
+.hero__media{
+  background: url("{{ site.url }}//assets/img/revs-a1.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+}
+
+.hero__media .hero__content{
+  @include centerer;
+}
+
+//section 1
+.info--background-1{
+  background: url("{{ site.url }}//assets/img/revs-b.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.info--background-2{
+  background: url("{{ site.url }}//assets/img/revs-c.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.info--background-3{
+  background: url("{{ site.url }}//assets/img/revs-d.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.services__content{
+  position: absolute;
+  top:0;
+  left:0;
+  padding: 15px;
+
+}
+
+//section 2
+
+.services{
+  height: 400px;
+}
+.services-background-2{
+  background: url("{{ site.url }}//assets/img/revs-e.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.services-background-3{
+  background: url("{{ site.url }}//assets/img/revs-f.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.services-background-4{
+  background: url("{{ site.url }}//assets/img/revs-g.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.services-background-6{
+  background: url("{{ site.url }}//assets/img/revs-i.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
 
 //ABOUT
 
@@ -66,4 +137,8 @@
 
 .ham{
   display: block;
+}
+
+.modular{
+  padding: 5px !important;
 }
