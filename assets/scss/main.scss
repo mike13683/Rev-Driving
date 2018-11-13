@@ -16,7 +16,7 @@
  * Designed by Michael Owens / Dragon Info Tech
  */
 //googlefont
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Roboto');
 
 //HOMEPAGE
 .hero{
@@ -62,7 +62,6 @@
 }
 
 .info__content--align-right{
-  left:auto !important;
   right:0 !important;
   padding: 30px !important;
 }
@@ -70,7 +69,6 @@
 .info__content, .services__content{
   position: absolute;
   top:0;
-  left:0;
   padding: 15px;
 }
 

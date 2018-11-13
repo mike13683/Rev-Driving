@@ -8,7 +8,7 @@ header .bg-light {
 
 //resize image brand size
 .navbar-brand img{
-  @include size(100px);
+  //@include size(100px);
 }
 
 //adds border to second menu item in main navbar on ipad/mobile
@@ -30,17 +30,17 @@ header .navbar-nav{
   padding-left: 7px;
   padding-right: 7px;
   text-decoration: none;
-  color:#fff;
+  color:#000;
 
   &:hover
   {
-    color:darken(#fff, 10%);
+    color:darken(#000, 10%);
   }
 }
 
 //selected page item turns blue
 .active a{
-  color:darken(#fff, 10%) !important;
+  color:darken(#000, 10%) !important;
 }
 
 //dropdown box re-positioned

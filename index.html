@@ -14,13 +14,16 @@ active: home
                     <div class="hero__content">
                         <div class="hero__header">
                             <h1>
-                                REVS</br>
-                                DRIVING</br>
-                                SCHOOL</br>
+                                <p class="mb-0">REVS</p>
+                                <p class="mb-0">DRIVING</p>
+                                <p class="mb-0">SCHOOL</p>
                             </h1>
                         </div>
                         <div class="hero__body">
-                            <span class="hero-sub-title">MANUAL & AUTOMATIC Driving Lessons in Cardiff</span>
+                            <span class="hero-sub-title">
+                                <p class="m-0">Manual & Automatic</p>
+                                <p class="m-0">Driving Lessons in Cardiff</p>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -28,9 +31,9 @@ active: home
 
             <div class="col-md-6">
                 <div class="hero__media">
-                    <div class="hero__content text-center">
-                        <button class="btn btn-outline-light">Intensive Courses</button>
-                        <button class="btn btn-outline-light">Lessons from £25</button>
+                    <div class="hero__content text-center mt-4">
+                        <button class="btn btn-lg btn-outline-light">Intensive Courses</button>
+                        <button class="btn btn-lg btn-outline-light">Lessons from £25</button>
                     </div>
                 </div>
             </div>
@@ -48,8 +51,8 @@ active: home
                     <div class="info__content">
                         <div class="info_heading text-primary">
                             <h2>
-                                INTENSE</br>
-                                COURSE</br>
+                                <p class="mb-0">INTENSE</p>
+                                <p class="mb-0">COURSE</p>
                             </h2>
                             <div class="info__body">
                                 <p class="display-4">From £200</p>
@@ -67,9 +70,9 @@ active: home
                             <div class="info__content">
                                 <div class="info_heading">
                                     <h2>
-                                        LESSONS</br>
-                                        FROM</br>
-                                        £25</br>
+                                        <p class="mb-0">LESSONS</p>
+                                        <p class="mb-0">FROM</p>
+                                        <p class="mb-0">£25</p>
                                     </h2>
                                     <div class="info__body">
                                         <button class="btn btn-outline-light">Read More</button>
@@ -84,9 +87,9 @@ active: home
                             <div class="info__content info__content--align-right">
                                 <div class="info_heading">
                                     <h2>
-                                        10 LESSONS</br>
-                                        FROM</br>
-                                        £250</br>
+                                        <p class="mb-0">10 LESSONS</p>
+                                        <p class="mb-0">FROM</p>
+                                        <p class="mb-0">£250</p>
                                     </h2>
                                     <div class="info__body">
                                         <button class="btn btn-outline-light">Read More</button>
@@ -115,7 +118,7 @@ active: home
                         </div>
                         <div class="services__body">
                             <p>Cur fluctus trabem?Alter, rusticus lactas satis locus de bassus, dexter hydra.ocus de bassus, dexter hydra</p>
-                            <p>Cur fluctus trabem?Alter, rusticus lactas satis locus de bassus, dexter hydra.ocus de bassus, dexter hydra</p>
+                            <p class="my-4">Cur fluctus trabem?Alter, rusticus lactas satis locus de bassus, dexter hydra.ocus de bassus, dexter hydra</p>
                             <button class="btn btn-outline-light">Read More</button>
                         </div>
                     </div>
@@ -162,7 +165,7 @@ active: home
                             <h2>Testimonials</h2>
                         </div>
                         <div class="services__body">
-                            <i class="fas fa-quote-right mx-auto d-block text-center my-2"></i>
+                            <i class="fas fa-quote-right mx-auto d-block text-center my-4"></i>
                             <blockquote class="blockquote">
                                 <p>Ubi est neuter tumultumque? Fiscina domesticus verpa est Primus fuga vix consumeres amicitia est..</p>
                                 <footer class="blockquote-footer text-light">ina domesticus verpa est Pri</footer>
@@ -187,12 +190,60 @@ active: home
 </section>
 
 <section id="h-contact" class="py-6">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="mx-auto d-block text-center">
-                <h2>Got a question for Us</h2>
-                <p>Particulas messis!Hercle, luna altnataeessis!Hercle, luna altus!, coordinatae!</p>
-                <button class="btn btn-dark">Contact Page</button>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-8 pb-5 text-center">
+<h2>Got a question?</h2>
+
+                <!--Form with header-->
+
+                <form action="mail.php" method="post">
+                    <div class="card rounded-0">
+                        <div class="card-header p-0">
+                            <div class="bg-primary text-white text-center py-2">
+                                <h3><i class=""></i> Contact Us</h3>
+                                <p class="m-0"></p>
+                            </div>
+                        </div>
+                        <div class="card-body p-3">
+
+                            <!--Body-->
+                            <div class="form-group">
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fa fa-user text-primary"></i></div>
+                                    </div>
+                                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Name" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fa fa-envelope text-primary"></i></div>
+                                    </div>
+                                    <input type="email" class="form-control" id="nombre" name="email" placeholder="email" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fa fa-comment text-primary"></i></div>
+                                    </div>
+                                    <textarea class="form-control" placeholder="Message" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <input type="submit" value="Send" class="btn bg-primary btn-block rounded-0 py-2 text-light">
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+                <!--Form with header-->
+
+
             </div>
         </div>
     </div>
