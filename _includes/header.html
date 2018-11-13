@@ -1,6 +1,6 @@
 <!--NAVBAR-->
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <a class="navbar-brand" href="/">
 
         </a>
@@ -8,68 +8,47 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse flex-column" id="navbar">
-            <ul class="navbar-nav nav w-100">
+            <nav class="navbar navbar-expand d-block mx-auto">
+                <div id="navbar">
+                    <ul class="navbar-nav nav w-100">
 
-                {% if page.active == "home" %}
-                <li class="active"><a href="#">Home</a></li>
-                {% else %}
-                <li><a href="../index.html ">Home</a></li>
-                {% endif %}
+                        {% if page.active == "home" %}
+                        <li class="active"><a href="#">Home</a></li>
+                        {% else %}
+                        <li><a href="../index.html ">Home</a></li>
+                        {% endif %}
 
-                {% if page.active == "about" %}
-                <li class="active"><a href="#">About</a></li>
-                {% else %}
-                <li><a href="../about.html ">About</a></li>
-                {% endif %}
+                        {% if page.active == "about" %}
+                        <li class="active"><a href="#">About</a></li>
+                        {% else %}
+                        <li><a href="../about.html ">About</a></li>
+                        {% endif %}
 
-                {% if page.active == "intensive" %}
-                <li class="active"><a href="#">Intensive</a></li>
-                {% else %}
-                <li><a href="../intensive.html">Intensive</a></li>
-                {% endif %}
+                        {% if page.active == "intensive" %}
+                        <li class="active"><a href="#">Intensive</a></li>
+                        {% else %}
+                        <li><a href="../intensive.html">Intensive</a></li>
+                        {% endif %}
 
-                {% if page.active == "pricing" %}
-                <li class="active"><a href="#">Pricing</a></li>
-                {% else %}
-                <li><a href="../pricing.html">Pricing</a></li>
-                {% endif %}
+                        {% if page.active == "pricing" %}
+                        <li class="active"><a href="#">Pricing</a></li>
+                        {% else %}
+                        <li><a href="../pricing.html">Pricing</a></li>
+                        {% endif %}
 
-                {% if page.active == "show" %}
-                <li class="active"><a href="#">Show</a></li>
-                {% else %}
-                <li><a href="../show.html">Show</a></li>
-                {% endif %}
+                        {% if page.active == "show" %}
+                        <li class="active"><a href="#">Show</a></li>
+                        {% else %}
+                        <li><a href="../show.html">Show</a></li>
+                        {% endif %}
 
-                {% if page.active == "cars" %}
-                <li class="active"><a href="#">Cars</a></li>
-                {% else %}
-                <li><a href="../cars.html">Cars</a></li>
-                {% endif %}
+                        {% if page.active == "cars" %}
+                        <li class="active"><a href="#">Cars</a></li>
+                        {% else %}
+                        <li><a href="../cars.html">Cars</a></li>
+                        {% endif %}
 
-                <ul class="navbar-nav float-sm-left ml-auto border-mobile">
-                    <li>
-                        <a class="nav-link disabled colour-primary contact-number-font pt-2 pl-1">Call 0800 4582757</a>
-                    </li>
-
-                    {% if page.active == "contact" %}
-                    <li class="active pt-2"><a href="#">Contact</a></li>
-                    {% else %}
-                    <li class="pt-2"><a href="../contact.html">Contact</a></li>
-                    {% endif %}
-
-                    <!--{% if page.active == "support" %}-->
-                    <!--<li class="active pt-2"><a href="#">Support</a></li>-->
-                    <!--{% else %}-->
-                    <!--<li class="pt-2"><a href="../support.html">Support</a></li>-->
-                    <!--{% endif %}-->
-
-                    <li class="isl-client pt-2">
-                        <a href="https://www.islonline.net/start/ISLLightClient" >Remote Support</a>
-                    </li>
-                </ul>
-
-            </ul>
-
-        </div>
-    </nav>
+                    </ul>
+                </div>
+            </nav>
 </header>

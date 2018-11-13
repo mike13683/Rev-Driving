@@ -30,17 +30,17 @@ header .navbar-nav{
   padding-left: 7px;
   padding-right: 7px;
   text-decoration: none;
-  color:#000;
+  color:#fff;
 
   &:hover
   {
-    color:lighten(#000, 30%);
+    color:darken(#fff, 10%);
   }
 }
 
 //selected page item turns blue
 .active a{
-  color:$primary !important;
+  color:darken(#fff, 10%) !important;
 }
 
 //dropdown box re-positioned
