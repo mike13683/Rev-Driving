@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6db34ee-72bc-404d-bc16-3e08c598959f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/_img-temp/revs-b.jpg" afterPath="$PROJECT_DIR$/assets/_img-temp/revs-b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/_img-temp/revs-d.jpg" afterPath="$PROJECT_DIR$/assets/_img-temp/revs-d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/revs-a1.jpg" afterPath="$PROJECT_DIR$/assets/img/revs-a1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/revs-b.jpg" afterPath="$PROJECT_DIR$/assets/img/revs-b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/revs-c.jpg" afterPath="$PROJECT_DIR$/assets/img/revs-c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/revs-d.jpg" afterPath="$PROJECT_DIR$/assets/img/revs-d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/revs-e.jpg" afterPath="$PROJECT_DIR$/assets/img/revs-e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/revs-f.jpg" afterPath="$PROJECT_DIR$/assets/img/revs-f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/revs-g.jpg" afterPath="$PROJECT_DIR$/assets/img/revs-g.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/revs-h.jpg" afterPath="$PROJECT_DIR$/assets/img/revs-h.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/revs-i.jpg" afterPath="$PROJECT_DIR$/assets/img/revs-i.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/custom/_bootstrap-override.scss" afterPath="$PROJECT_DIR$/assets/scss/custom/_bootstrap-override.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/custom/helpers/_global-classes.scss" afterPath="$PROJECT_DIR$/assets/scss/custom/helpers/_global-classes.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/main.scss" afterPath="$PROJECT_DIR$/assets/scss/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/htmlmin/dist/timestamp" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/htmlmin/dist/timestamp" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,20 +37,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5078979">
+    <splitter split-orientation="horizontal" split-proportion="0.60716456">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="192" column="44" lean-forward="false" selection-start-line="192" selection-start-column="44" selection-end-line="192" selection-end-column="44" />
+                <state relative-caret-position="511">
+                  <caret line="200" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_global-classes.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_global-classes.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/scss/custom/helpers/_global-classes.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="119">
@@ -71,7 +83,7 @@
           <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_includes/footer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="532">
+                <state relative-caret-position="969">
                   <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
                   <folding />
                 </state>
@@ -105,8 +117,8 @@
           <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/scss/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="511">
-                  <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+                <state relative-caret-position="62">
+                  <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -115,8 +127,8 @@
           <file leaf-file-name="_bootstrap-override.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/scss/custom/_bootstrap-override.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="232">
-                  <caret line="198" column="2" lean-forward="true" selection-start-line="198" selection-start-column="2" selection-end-line="198" selection-end-column="34" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -138,10 +150,13 @@
       <find>card-deck</find>
       <find>col-auto</find>
       <find>bg</find>
-      <find>h1</find>
       <find>gutter</find>
       <find>aboutA</find>
       <find>about</find>
+      <find>h1</find>
+      <find>color</find>
+      <find>foo</find>
+      <find>gray</find>
     </findStrings>
     <replaceStrings>
       <replace>col-md-4</replace>
@@ -171,10 +186,10 @@
         <option value="$PROJECT_DIR$/cars.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/assets/scss/custom/includes/_footer.scss" />
-        <option value="$PROJECT_DIR$/assets/scss/custom/_bootstrap-override.scss" />
         <option value="$PROJECT_DIR$/assets/scss/custom/helpers/_global-classes.scss" />
-        <option value="$PROJECT_DIR$/assets/scss/main.scss" />
+        <option value="$PROJECT_DIR$/assets/scss/custom/_bootstrap-override.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/scss/main.scss" />
       </list>
     </option>
   </component>
@@ -212,7 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -348,6 +362,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -435,12 +450,13 @@
       <workItem from="1539002800911" duration="5513000" />
       <workItem from="1541417486778" duration="195000" />
       <workItem from="1541429268958" duration="23918000" />
-      <workItem from="1542028433279" duration="11933000" />
+      <workItem from="1542028433279" duration="12530000" />
+      <workItem from="1542103252765" duration="4788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48293000" />
+    <option name="totallyTimeSpent" value="53678000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,11 +471,10 @@
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13277134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13224447" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -472,6 +487,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -795,32 +811,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="969">
           <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/custom/_bootstrap-override.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="198" column="2" lean-forward="true" selection-start-line="198" selection-start-column="2" selection-end-line="198" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="192" column="44" lean-forward="false" selection-start-line="192" selection-start-column="44" selection-end-line="192" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -829,6 +821,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/custom/_bootstrap-override.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="200" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
           <folding />
         </state>
       </provider>

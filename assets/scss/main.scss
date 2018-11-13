@@ -26,6 +26,11 @@
   &__content{
     @include centerer;
   }
+
+  .hero-sub-title{
+    font-size:rem-calc(30px);
+  }
+
 }
 
 .hero__media{
@@ -57,12 +62,17 @@
   height: 300px;
 }
 
-.services__content{
+.info__content--align-right{
+  left:auto !important;
+  right:0 !important;
+  padding: 30px !important;
+}
+
+.info__content, .services__content{
   position: absolute;
   top:0;
   left:0;
   padding: 15px;
-
 }
 
 //section 2
@@ -94,6 +104,10 @@
   height: 400px;
 }
 
+
+#h-contact{
+  background-color: $gray-200;
+}
 //ABOUT
 
 
